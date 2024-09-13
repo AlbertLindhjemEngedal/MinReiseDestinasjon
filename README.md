@@ -1,4 +1,4 @@
-# MittReisem-l
+# MinReiseDestinasjon
 Oppgave: Du skal lage et nettsted om ditt favorittreisemål 
 
 Krav:
