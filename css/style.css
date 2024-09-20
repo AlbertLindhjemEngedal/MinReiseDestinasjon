@@ -1,3 +1,8 @@
+/* body {
+  display: flex;
+} */
+
+
 .center {
   text-align: center;
   margin-left: auto;
@@ -6,6 +11,7 @@
 
 #top_slice {
   height: 10vh;
+  display: flex;
 
   border-bottom: 1px solid black;
   /* border-color: black; */
@@ -13,43 +19,58 @@
   margin-left: 5px;
   margin-right: 5px;
   padding-bottom: 15px;
+  flex-wrap: wrap;
 }
 
 h1 {
-  position: absolute;
-  left: 20px;
+  /* position: absolute;
+  left: 20px; */
+  float: left;
   font-size: 60px;
-  top: 20px;
+  /* top: 20px; */
   margin: 0;
   padding-bottom: 10px;
 }
+
+
+
 
 h2 {
   font-size: 70px;
   color: white;
 }
 
+
+
+
 .menu_div {
-  /* background-color: bisque; */
   border-radius: 25%;
   margin: 20px;
-  position: absolute;
-  right: 20px;
+  position: relative;
   margin-bottom: 10px;
-  /* display: flexbox; */
+  display: flex;  
 }
+
+.menu_div ul{
+  padding: None;
+  margin: None;
+}
+
 
 .menu_div ul li {
   float: left;
   list-style: none;
+  flex-wrap: wrap;
+
 }
+
 
 .menu_div ul li a {
   background-color: black;
   padding: 5px;
   color: white;
   border-radius: 7px;
-  margin: 5px;
+
   text-decoration: none;
   -webkit-box-shadow: 5px 5px 4px -4px rgba(0, 0, 0, 1);
   -moz-box-shadow: 5px 5px 4px -4px rgba(0, 0, 0, 1);
@@ -61,12 +82,26 @@ h2 {
   padding: 7px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 #Portofino_night_water {
   margin-top: 30px;
   background-image: url("../img/Portofino_night_water.webp");
   padding-top: 20px;
   height: 70vh;
   width: 100%;
+  flex-wrap: wrap;
+  
 }
 
 #audio {
@@ -76,32 +111,45 @@ h2 {
 .left {
   width: 49%;
   float: left;
+  display: flex;
 }
 
 .right {
   width: 49%;
   float: right;
+  display: flex;
 }
 
-#left_two {
+/* #left_two {
   height: 50vh;
+} */
+
+
+
+#bottom {
+  display: flex;
 }
 
 #right_two {
   background-image: url(../img/portof_day.jpg);
-  height: 50vh;
+  display: flex;
+  /* height: 50vh; */
+  /* height: 100; */
 }
 
 #general_info {
   margin: 10px;
   height: auto;
   background-color:bisque;
+  display: flex;
+  flex-wrap: wrap;  
 }
 
 
 h3 {
   padding: 5px;
   font-size: 30px;
+  margin-left: 20px;
 }
 #ff_list li {
   padding-bottom: 20px;
@@ -113,3 +161,4 @@ h3 {
   background-size: cover;
   height: 75vh;
 }
+
