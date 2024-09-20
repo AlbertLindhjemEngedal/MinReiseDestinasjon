@@ -12,6 +12,7 @@
 
   margin-left: 5px;
   margin-right: 5px;
+  padding-bottom: 15px;
 }
 
 h1 {
@@ -35,6 +36,7 @@ h2 {
   position: absolute;
   right: 20px;
   margin-bottom: 10px;
+  /* display: flexbox; */
 }
 
 .menu_div ul li {
@@ -46,23 +48,21 @@ h2 {
   background-color: black;
   padding: 5px;
   color: white;
-  border-radius: 10px;
+  border-radius: 7px;
   margin: 5px;
   text-decoration: none;
   -webkit-box-shadow: 5px 5px 4px -4px rgba(0, 0, 0, 1);
   -moz-box-shadow: 5px 5px 4px -4px rgba(0, 0, 0, 1);
   box-shadow: 5px 5px 4px -4px rgba(0, 0, 0, 1);
-  transition: padding 0.5s ease;
+  transition: padding 0.3s ease;
 }
 
 .menu_div ul li a:hover {
-    padding: 7px;
-
+  padding: 7px;
 }
 
-
 #Portofino_night_water {
-  margin-top: 50px;
+  margin-top: 30px;
   background-image: url("../img/Portofino_night_water.webp");
   padding-top: 20px;
   height: 70vh;
@@ -70,11 +70,8 @@ h2 {
 }
 
 #audio {
-    padding-top: 50px;
+  padding-top: 50px;
 }
-
-
-
 
 .left {
   width: 49%;
@@ -86,7 +83,33 @@ h2 {
   float: right;
 }
 
+#left_two {
+  height: 50vh;
+}
 
-#two {
-    background-image: ;
-} 
+#right_two {
+  background-image: url(../img/portof_day.jpg);
+  height: 50vh;
+}
+
+#general_info {
+  margin: 10px;
+  height: auto;
+  background-color:bisque;
+}
+
+
+h3 {
+  padding: 5px;
+  font-size: 30px;
+}
+#ff_list li {
+  padding-bottom: 20px;
+}
+
+#pesto {
+  margin-top: 20px;
+  background-image: url(../img/ai_pasta.avif);
+  background-size: cover;
+  height: 75vh;
+}
